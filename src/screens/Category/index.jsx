@@ -10,9 +10,9 @@ export default function Category() {
     <View style={styles.container}>
       <Title title="Category" />
 
-      <TouchButton route="Category" title="Go to Category" />
+      <TouchButton route="Category" title="Cadastre seu planeta 🌎" />
 
-      <TouchButton route="Profile" title="Go to Profile" data={user} />
+      <TouchButton route="Profile" title="Planetas cadastrados 🌎" data={user} />
     </View>
   );
 }

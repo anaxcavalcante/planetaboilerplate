@@ -9,18 +9,27 @@ const styles = StyleSheet.create({
   button: {
     marginTop: 20,
     padding: 10,
-    backgroundColor: "#C9D4FF",
+    backgroundColor: "#6B8E23",
     borderRadius: 5,
+  },
+  title: {
+     fontFamily: "serif",
   },
   user: {
     marginTop: 20,
     padding: 10,
-    backgroundColor: "#C9D4FF",
     borderRadius: 5,
   },
   text: {
     fontSize: 16,
+    fontFamily: "serif",
   },
+  image: {
+     width: 500,
+    height: 350,
+    borderRadius: 50,
+  }
+
 });
 
 export default styles;

@@ -17,7 +17,7 @@ export default function Profile({ route }) {
         <Title title="Sobre mim" />
         <Text style={styles.text}>{data.name}</Text>
 
-         <TouchButton route="Home" title="Planetas cadastrados 🌎" />
+         <TouchButton route="Home" title="Planetas cadastrados" />
 
       <TouchButton route="Category" title="Cadastre seu planeta 🌎" />
       </View>

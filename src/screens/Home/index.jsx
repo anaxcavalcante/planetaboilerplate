@@ -14,7 +14,7 @@ export default function Home() {
 Data de Conquista: 13/11/2006
 Cor Primária e Cor Secundária do Planeta: Verde e roxo
 População do Planeta: 120.139
-Localização: Galaxia
+Localização:
 Governante do Planeta: Ana Clara Cavalcante Reis"
 />
 

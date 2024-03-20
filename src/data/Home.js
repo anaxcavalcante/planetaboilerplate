@@ -1,0 +1,4 @@
+export const user = {
+  name: "Eu sou Ana Clara Cavalcante Reis, uma jovem de 17 anos apaixonada pelo mundo da tecnologia e pela arte de criar soluções inovadoras. Nasci e cresci na encantadora cidade de Valinhos, onde aprendi a apreciar a beleza da natureza e a valorizar a comunidade ao meu redor. Desde cedo, desenvolvi um interesse ardente pela computação, o que me levou a iniciar uma jornada emocionante no campo do desenvolvimento de sistemas. Ao longo da minha jornada acadêmica, enfrentei muitos desafios, desde a complexidade dos algoritmos até a pressão dos prazos de entrega. No entanto, cada obstáculo que enfrentei só serviu para fortalecer minha determinação e me tornar uma profissional mais resiliente. Conquistar minhas metas acadêmicas e superar desafios me trouxe uma sensação de realização e me motivou a buscar novos horizontes no mundo da tecnologia.",
+  image: require("../../assets/eu.png")
+};

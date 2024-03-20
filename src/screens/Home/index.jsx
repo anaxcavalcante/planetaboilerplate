@@ -8,9 +8,17 @@ import TouchButton from "../../components/TouchButton";
 export default function Home() {
   return (
     <View style={styles.container}>
-      <Title title="Home" />
+      <Title title="Planetas já cadastrados" />
 
-      <TouchButton route="Profile" title="Planetas Cadastrados 🌎" data={user} />
+      <Title title="Nome do Planeta: Sidera
+Data de Conquista: 13/11/2006
+Cor Primária e Cor Secundária do Planeta: Verde e roxo
+População do Planeta: 120.139
+Localização: Galaxia
+Governante do Planeta: Ana Clara Cavalcante Reis"
+/>
+
+      <TouchButton route="Profile" title="Perfil da programadora" data={user} />
 
       <TouchButton route="Category" title="Cadastre seu planeta 🌎" />
     </View>

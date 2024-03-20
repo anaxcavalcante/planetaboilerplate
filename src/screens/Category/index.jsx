@@ -8,11 +8,11 @@ import { user } from "../../data/Profile";
 export default function Category() {
   return (
     <View style={styles.container}>
-      <Title title="Category" />
+      <Title title="Cadastre seu planeta aqui" />
 
       <TouchButton route="Category" title="Cadastre seu planeta 🌎" />
 
-      <TouchButton route="Profile" title="Planetas cadastrados 🌎" data={user} />
+      <TouchButton route="Profile" title="Perfil da programadora" data={user} />
     </View>
   );
 }

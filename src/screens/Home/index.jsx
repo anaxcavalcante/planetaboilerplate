@@ -18,7 +18,7 @@ Localização:
 Governante do Planeta: Ana Clara Cavalcante Reis"
 />
 
-      <TouchButton route="Profile" title="Perfil da programadora" data={user} />
+      <TouchButton route="Profile" title="Perfil da programadora 👩🏻" data={user} />
 
       <TouchButton route="Category" title="Cadastre seu planeta 🌎" />
     </View>

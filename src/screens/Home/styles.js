@@ -12,6 +12,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#6B8E23",
     borderRadius: 5,
   },
+  img: {
+     width: 400,
+    height: 250,
+    borderRadius: 30,
+  },
 });
 
 export default styles;

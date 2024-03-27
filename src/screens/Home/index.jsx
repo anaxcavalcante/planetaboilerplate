@@ -17,7 +17,7 @@ export default function Home() {
 
       <Title title="Nome do planeta: Sidera
 Data de Conquista: 13/11/2006
-Cor Primária e Cor Secundária do Planeta: Roxo e Azul
+Cor Primária e Cor Secundária do Planeta: Prata
 População do Planeta: 120.139
 Localização: Galaxia
 Governante do Planeta: Ana Clara Cavalcante Reis

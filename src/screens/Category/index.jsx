@@ -40,12 +40,12 @@ export default function Category() {
         onChangeText={(text) => setPlanetInfo({ ...planetInfo, dataConquista: text })}
       />
       <TextInput
-        placeholder="Cor Primária e Cor Secundária do Planeta"
+        placeholder="Cores"
         value={planetInfo.cores}
         onChangeText={(text) => setPlanetInfo({ ...planetInfo, cores: text })}
       />
       <TextInput
-        placeholder="População do Planeta"
+        placeholder="População"
         value={planetInfo.populacao}
         onChangeText={(text) => setPlanetInfo({ ...planetInfo, populacao: text })}
       />
@@ -60,7 +60,7 @@ export default function Category() {
         onChangeText={(text) => setPlanetInfo({ ...planetInfo, comunicacao: text })}
       />
       <TextInput
-        placeholder="Governante do Planeta"
+        placeholder="Governante"
         value={planetInfo.governante}
         onChangeText={(text) => setPlanetInfo({ ...planetInfo, governante: text })}
       />

@@ -21,9 +21,8 @@ Cor Primária e Cor Secundária do Planeta: Prata
 População do Planeta: 120.139
 Localização: Galaxia
 Governante do Planeta: Ana Clara Cavalcante Reis
-Descrição do planeta: Sirena é um planeta exuberante e diversificado, situado nos confins do universo conhecido. Desde sua conquista em 13 de novembro de 2006, este mundo floresceu sob a liderança visionária de sua governante, Ana Clara Cavalcante Reis. Com uma população de 120.139 habitantes, Sirena é uma colcha de retalhos de culturas, com paisagens deslumbrantes que variam de vastas planícies verdejantes a majestosas montanhas cobertas de neve."
+Descrição do planeta: Sirena é um planeta exuberante, situado nos confins do universo conhecido. Desde sua conquista em 13 de novembro de 2006, este mundo floresceu sob a liderança visionária de sua governante, Ana Clara Cavalcante Reis. Com uma população de 120.139 habitantes, Sirena é uma colcha de retalhos de culturas, com paisagens deslumbrantes que variam de vastas planícies verdejantes a majestosas montanhas cobertas de neve."
       />
-
 
       <TouchButton route="Profile" title="Perfil da programadora 👩🏻" data={user} />
 

@@ -27,7 +27,7 @@ export default function Category() {
 
   return (
     <View style={styles.container}>
-      <Title title="Cadastre seu planeta aqui" />
+      <Title title="Cadastre seu planeta aqui 🌎" />
 
       <TextInput
         placeholder="Nome do planeta"
@@ -73,14 +73,14 @@ export default function Category() {
       <Button title="Salvar" onPress={() => {}} />
 
       <View style={{ marginTop: 20 }}>
-        <Text>Nome do planeta: {planetInfo.nome}</Text>
-        <Text>Data de Conquista: {planetInfo.dataConquista}</Text>
-        <Text>Cores: {planetInfo.cores}</Text>
-        <Text>População: {planetInfo.populacao}</Text>
-        <Text>Localização: {planetInfo.localizacao}</Text>
-        <Text>Comunicação: {planetInfo.comunicacao}</Text>
-        <Text>Governante: {planetInfo.governante}</Text>
-        <Text>Foto do planeta: {planetInfo.foto}</Text>
+        <Text>{planetInfo.nome}</Text>
+        <Text>{planetInfo.dataConquista}</Text>
+        <Text>{planetInfo.cores}</Text>
+        <Text>{planetInfo.populacao}</Text>
+        <Text>{planetInfo.localizacao}</Text>
+        <Text>{planetInfo.comunicacao}</Text>
+        <Text>{planetInfo.governante}</Text>
+        <Text>{planetInfo.foto}</Text>
       </View>
 
       <TouchButton route="Profile" title="Perfil da programadora 👩🏻" data={user} />
